@@ -21,6 +21,14 @@ JupyterLite is being tested against modern web browsers:
 
 Check out the guide on the JupyterLite documentation: https://jupyterlite.readthedocs.io/en/latest/quickstart/deploy.html
 
+# core package for building the JupyterLite website
+jupyterlite-core==0.1.0b19
+# the Python kernel powered by Pyodide
+jupyterlite-pyodide-kernel==0.0.5
+# dependency for indexing the content
+jupyterlab~=3.5.3
+
+
 ## Further Information and Updates
 
 For more info, keep an eye on the JupyterLite documentation:
